@@ -19,7 +19,6 @@ C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\Main\bin\Debug\DataAccessLaye
 C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\Main\bin\Debug\DataAccessLayer.dll.config
 C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\Main\bin\Debug\Utilities.pdb
 C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\Main\obj\Debug\Main.csprojAssemblyReference.cache
-C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\Main\obj\Debug\Main.Form1.resources
 C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\Main\obj\Debug\Main.Properties.Resources.resources
 C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\Main\obj\Debug\Main.csproj.GenerateResource.cache
 C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\Main\obj\Debug\Main.csproj.CoreCompileInputs.cache
@@ -27,9 +26,7 @@ C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\Main\obj\Debug\Main.csproj.Co
 C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\Main\obj\Debug\Main.exe
 C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\Main\obj\Debug\Main.pdb
 C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\Main\obj\Debug\Main.Forms.LogIn.resources
-C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\Main\obj\Debug\Main.Forms.ServiceInvoices.resources
 C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\Main\obj\Debug\Main.Forms.Stock.resources
-C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\Main\obj\Debug\Main.Forms.Vendors.resources
 C:\Users\genaro\Desktop\BosettiAutomotores\Main\bin\Debug\Main.exe.config
 C:\Users\genaro\Desktop\BosettiAutomotores\Main\bin\Debug\Main.exe
 C:\Users\genaro\Desktop\BosettiAutomotores\Main\bin\Debug\Main.pdb
@@ -90,3 +87,6 @@ C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\Main\obj\Debug\Main.Forms.Emp
 C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\Main\obj\Debug\Main.Forms.Suppliers.resources
 C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\Main\obj\Debug\Main.Forms.Services.resources
 C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\Main\obj\Debug\Main.Forms.Invoices.resources
+C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\Main\obj\Debug\Main.Forms.ServiceForm.ActiveService.resources
+C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\Main\obj\Debug\Main.Forms.addCliente.resources
+C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\Main\obj\Debug\Main.Forms.AddServices.resources

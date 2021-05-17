@@ -58,11 +58,17 @@
     <Compile Include="Forms\Home.designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\ServiceForm\AddCliente.cs">
+    <Compile Include="Forms\ServiceForm\ActiveService.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\ServiceForm\AddCliente.Designer.cs">
-      <DependentUpon>AddCliente.cs</DependentUpon>
+    <Compile Include="Forms\ServiceForm\ActiveService.Designer.cs">
+      <DependentUpon>ActiveService.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ServiceForm\addCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ServiceForm\addCliente.Designer.cs">
+      <DependentUpon>addCliente.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\ServiceForm\addService.cs">
       <SubType>Form</SubType>
@@ -117,8 +123,14 @@
     <EmbeddedResource Include="Forms\Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ServiceForm\AddCliente.resx">
-      <DependentUpon>AddCliente.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\ServiceForm\ActiveService.resx">
+      <DependentUpon>ActiveService.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ServiceForm\addCliente.resx">
+      <DependentUpon>addCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ServiceForm\addService.resx">
+      <DependentUpon>addService.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Submenus\Statistics.resx">
       <DependentUpon>Statistics.cs</DependentUpon>

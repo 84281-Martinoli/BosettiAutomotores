@@ -28,5 +28,11 @@ namespace Main.Forms {
         {
 
         }
+
+        private void addClientbutton_Click(object sender, EventArgs e)
+        {
+            addCliente fh = new addCliente();
+            fh.ShowDialog();
+        }
     }
 }

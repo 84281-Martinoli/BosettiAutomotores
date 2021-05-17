@@ -31,8 +31,6 @@ namespace Main.Forms {
             this.txtClientName = new System.Windows.Forms.TextBox();
             this.txtClientSurname = new System.Windows.Forms.TextBox();
             this.surnameClientLabel = new System.Windows.Forms.Label();
-            this.btnCancel = new System.Windows.Forms.Button();
-            this.btnNewClient = new System.Windows.Forms.Button();
             this.topPanel = new System.Windows.Forms.Panel();
             this.txtCUIT = new System.Windows.Forms.TextBox();
             this.TipoDNILabel = new System.Windows.Forms.Label();
@@ -45,6 +43,8 @@ namespace Main.Forms {
             this.emailLabel = new System.Windows.Forms.Label();
             this.txtBarrio = new System.Windows.Forms.TextBox();
             this.barrioLabel = new System.Windows.Forms.Label();
+            this.btnCancel = new System.Windows.Forms.Button();
+            this.btnNewClient = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtNombreCalle
@@ -104,34 +104,6 @@ namespace Main.Forms {
             this.surnameClientLabel.Size = new System.Drawing.Size(102, 13);
             this.surnameClientLabel.TabIndex = 8;
             this.surnameClientLabel.Text = "Apellido del Cliente: ";
-            // 
-            // btnCancel
-            // 
-            this.btnCancel.BackgroundImage = global::Main.Properties.Resources.ButGenericoForm;
-            this.btnCancel.FlatAppearance.BorderSize = 0;
-            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancel.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnCancel.Location = new System.Drawing.Point(187, 281);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(146, 39);
-            this.btnCancel.TabIndex = 35;
-            this.btnCancel.Text = "Cancelar";
-            this.btnCancel.UseVisualStyleBackColor = true;
-            // 
-            // btnNewClient
-            // 
-            this.btnNewClient.BackgroundImage = global::Main.Properties.Resources.ButGenericoForm;
-            this.btnNewClient.FlatAppearance.BorderSize = 0;
-            this.btnNewClient.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNewClient.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnNewClient.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnNewClient.Location = new System.Drawing.Point(35, 281);
-            this.btnNewClient.Name = "btnNewClient";
-            this.btnNewClient.Size = new System.Drawing.Size(146, 39);
-            this.btnNewClient.TabIndex = 33;
-            this.btnNewClient.Text = "Nuevo Cliente";
-            this.btnNewClient.UseVisualStyleBackColor = true;
             // 
             // topPanel
             // 
@@ -230,6 +202,35 @@ namespace Main.Forms {
             this.barrioLabel.TabIndex = 67;
             this.barrioLabel.Text = "Barrio:";
             // 
+            // btnCancel
+            // 
+            this.btnCancel.BackgroundImage = global::Main.Properties.Resources.ButGenericoForm;
+            this.btnCancel.FlatAppearance.BorderSize = 0;
+            this.btnCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnCancel.Location = new System.Drawing.Point(187, 281);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(146, 39);
+            this.btnCancel.TabIndex = 35;
+            this.btnCancel.Text = "Cancelar";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
+            // 
+            // btnNewClient
+            // 
+            this.btnNewClient.BackgroundImage = global::Main.Properties.Resources.ButGenericoForm;
+            this.btnNewClient.FlatAppearance.BorderSize = 0;
+            this.btnNewClient.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNewClient.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNewClient.ForeColor = System.Drawing.SystemColors.Control;
+            this.btnNewClient.Location = new System.Drawing.Point(35, 281);
+            this.btnNewClient.Name = "btnNewClient";
+            this.btnNewClient.Size = new System.Drawing.Size(146, 39);
+            this.btnNewClient.TabIndex = 33;
+            this.btnNewClient.Text = "Nuevo Cliente";
+            this.btnNewClient.UseVisualStyleBackColor = true;
+            // 
             // addCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -258,6 +259,7 @@ namespace Main.Forms {
             this.Controls.Add(this.topPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "addCliente";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Clients";
             this.Load += new System.EventHandler(this.Clients_Load);
             this.ResumeLayout(false);
