@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Main.Forms.InvoiceCRUD
 {
-    public partial class Historial_ventas : Form
+    public partial class Generar_venta : Form
     {
-        public Historial_ventas()
+        public Generar_venta()
         {
             InitializeComponent();
         }
@@ -21,6 +21,5 @@ namespace Main.Forms.InvoiceCRUD
         {
             this.Close();
         }
-
     }
 }

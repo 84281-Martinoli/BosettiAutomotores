@@ -10,26 +10,16 @@ using System.Windows.Forms;
 
 namespace Main.Forms.InvoiceCRUD
 {
-    public partial class Facturacion : Form
+    public partial class Generar_presupuesto : Form
     {
-        public Facturacion()
+        public Generar_presupuesto()
         {
             InitializeComponent();
         }
 
-        private void CancelButton_Click(object sender, EventArgs e)
+        private void CancelButton_Click_2(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-        private void textBox7_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox5_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

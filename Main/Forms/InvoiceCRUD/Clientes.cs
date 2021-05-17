@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace Main.Forms.InvoiceCRUD
 {
-    public partial class Historial_ventas : Form
+    public partial class Clientes : Form
     {
-        public Historial_ventas()
+        public Clientes()
         {
             InitializeComponent();
         }
-
-        private void CancelButton_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
     }
 }

@@ -58,11 +58,17 @@
     <Compile Include="Forms\Home.designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\InvoiceCRUD\Facturacion.cs">
+    <Compile Include="Forms\InvoiceCRUD\Generar_presupuesto.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\InvoiceCRUD\Facturacion.Designer.cs">
-      <DependentUpon>Facturacion.cs</DependentUpon>
+    <Compile Include="Forms\InvoiceCRUD\Generar_presupuesto.Designer.cs">
+      <DependentUpon>Generar_presupuesto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\InvoiceCRUD\Generar_venta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\InvoiceCRUD\Generar_venta.Designer.cs">
+      <DependentUpon>Generar_venta.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\InvoiceCRUD\Historial_ventas.cs">
       <SubType>Form</SubType>
@@ -123,8 +129,11 @@
     <EmbeddedResource Include="Forms\Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\InvoiceCRUD\Facturacion.resx">
-      <DependentUpon>Facturacion.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\InvoiceCRUD\Generar_presupuesto.resx">
+      <DependentUpon>Generar_presupuesto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\InvoiceCRUD\Generar_venta.resx">
+      <DependentUpon>Generar_venta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\InvoiceCRUD\Historial_ventas.resx">
       <DependentUpon>Historial_ventas.cs</DependentUpon>

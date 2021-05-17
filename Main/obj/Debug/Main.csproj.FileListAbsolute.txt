@@ -108,3 +108,6 @@ C:\Users\Bruno\Documents\GitHub\BosettiAutomotores\Main\obj\Debug\Main.csproj.Co
 C:\Users\Bruno\Documents\GitHub\BosettiAutomotores\Main\obj\Debug\Main.exe
 C:\Users\Bruno\Documents\GitHub\BosettiAutomotores\Main\obj\Debug\Main.pdb
 C:\Users\Bruno\Documents\GitHub\BosettiAutomotores\Main\obj\Debug\Main.Forms.AddServices.resources
+C:\Users\Bruno\Documents\GitHub\BosettiAutomotores\Main\obj\Debug\Main.Forms.InvoiceCRUD.Generar_presupuesto.resources
+C:\Users\Bruno\Documents\GitHub\BosettiAutomotores\Main\obj\Debug\Main.Forms.InvoiceCRUD.Generar_venta.resources
+C:\Users\Bruno\Documents\GitHub\BosettiAutomotores\Main\obj\Debug\Main.Forms.InvoiceCRUD.Historial_ventas.resources
