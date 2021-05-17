@@ -12,3 +12,10 @@ C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\DataAccessLayer\obj\Debug\Dat
 C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
 C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\DataAccessLayer\obj\Debug\DataAccessLayer.dll
 C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
+C:\Users\Bruno\Documents\GitHub\BosettiAutomotores\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\Bruno\Documents\GitHub\BosettiAutomotores\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\Bruno\Documents\GitHub\BosettiAutomotores\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\Bruno\Documents\GitHub\BosettiAutomotores\DataAccessLayer\obj\Debug\DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\Bruno\Documents\GitHub\BosettiAutomotores\DataAccessLayer\obj\Debug\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Bruno\Documents\GitHub\BosettiAutomotores\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\Bruno\Documents\GitHub\BosettiAutomotores\DataAccessLayer\obj\Debug\DataAccessLayer.pdb
