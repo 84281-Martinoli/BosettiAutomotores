@@ -10,3 +10,9 @@ C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\Utilities\obj\Debug\Utilities
 C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\Utilities\obj\Debug\Utilities.csproj.CoreCompileInputs.cache
 C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\Utilities\obj\Debug\Utilities.dll
 C:\Users\Jcbos\Documents\GitHub\BosettiAutomotores\Utilities\obj\Debug\Utilities.pdb
+C:\Users\Bruno\Documents\GitHub\BosettiAutomotores\Utilities\bin\Debug\Utilities.dll
+C:\Users\Bruno\Documents\GitHub\BosettiAutomotores\Utilities\bin\Debug\Utilities.pdb
+C:\Users\Bruno\Documents\GitHub\BosettiAutomotores\Utilities\obj\Debug\Utilities.csprojAssemblyReference.cache
+C:\Users\Bruno\Documents\GitHub\BosettiAutomotores\Utilities\obj\Debug\Utilities.csproj.CoreCompileInputs.cache
+C:\Users\Bruno\Documents\GitHub\BosettiAutomotores\Utilities\obj\Debug\Utilities.dll
+C:\Users\Bruno\Documents\GitHub\BosettiAutomotores\Utilities\obj\Debug\Utilities.pdb

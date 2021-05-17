@@ -1,36 +1,37 @@
 ﻿
-namespace Main.Forms {
-	partial class AddServices {
-		/// <summary>
-		/// Required designer variable.
-		/// </summary>
-		private System.ComponentModel.IContainer components = null;
+namespace Main.Forms
+{
+    partial class AddServices
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
 
-		/// <summary>
-		/// Clean up any resources being used.
-		/// </summary>
-		/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-		protected override void Dispose(bool disposing) {
-			if (disposing && (components != null)) {
-				components.Dispose();
-			}
-			base.Dispose(disposing);
-		}
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
 
-		#region Windows Form Designer generated code
+        #region Windows Form Designer generated code
 
-		/// <summary>
-		/// Required method for Designer support - do not modify
-		/// the contents of this method with the code editor.
-		/// </summary>
-		private void InitializeComponent() {
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
             this.topPanel = new System.Windows.Forms.Panel();
-            this.addServiceButton = new System.Windows.Forms.Button();
-            this.CancelButton = new System.Windows.Forms.Button();
             this.nameClientLabel = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.BuscarButton = new System.Windows.Forms.Button();
-            this.addClientbutton = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.surnameClientLabel = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -46,7 +47,6 @@ namespace Main.Forms {
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.tipoTabajoLabel = new System.Windows.Forms.Label();
             this.comboBox4 = new System.Windows.Forms.ComboBox();
-            this.printbutton = new System.Windows.Forms.Button();
             this.mecanicoLabel = new System.Windows.Forms.Label();
             this.comboBox5 = new System.Windows.Forms.ComboBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
@@ -60,7 +60,12 @@ namespace Main.Forms {
             this.Total = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button1 = new System.Windows.Forms.Button();
             this.addTableButton = new System.Windows.Forms.Button();
+            this.printbutton = new System.Windows.Forms.Button();
+            this.BuscarButton = new System.Windows.Forms.Button();
+            this.addClientbutton = new System.Windows.Forms.Button();
+            this.CancelButton = new System.Windows.Forms.Button();
             this.clearButton = new System.Windows.Forms.Button();
+            this.addServiceButton = new System.Windows.Forms.Button();
             this.AddClientPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
@@ -73,35 +78,6 @@ namespace Main.Forms {
             this.topPanel.Name = "topPanel";
             this.topPanel.Size = new System.Drawing.Size(800, 25);
             this.topPanel.TabIndex = 0;
-            // 
-            // addServiceButton
-            // 
-            this.addServiceButton.BackgroundImage = global::Main.Properties.Resources.ButGenericoForm;
-            this.addServiceButton.FlatAppearance.BorderSize = 0;
-            this.addServiceButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.addServiceButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addServiceButton.ForeColor = System.Drawing.SystemColors.Control;
-            this.addServiceButton.Location = new System.Drawing.Point(340, 408);
-            this.addServiceButton.Name = "addServiceButton";
-            this.addServiceButton.Size = new System.Drawing.Size(146, 39);
-            this.addServiceButton.TabIndex = 1;
-            this.addServiceButton.Text = "Nuevo Service";
-            this.addServiceButton.UseVisualStyleBackColor = true;
-            // 
-            // CancelButton
-            // 
-            this.CancelButton.BackgroundImage = global::Main.Properties.Resources.ButGenericoForm;
-            this.CancelButton.FlatAppearance.BorderSize = 0;
-            this.CancelButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.CancelButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CancelButton.ForeColor = System.Drawing.SystemColors.Control;
-            this.CancelButton.Location = new System.Drawing.Point(644, 408);
-            this.CancelButton.Name = "CancelButton";
-            this.CancelButton.Size = new System.Drawing.Size(146, 39);
-            this.CancelButton.TabIndex = 3;
-            this.CancelButton.Text = "Cancelar";
-            this.CancelButton.UseVisualStyleBackColor = true;
-            this.CancelButton.Click += new System.EventHandler(this.CancelButton_Click);
             // 
             // nameClientLabel
             // 
@@ -119,34 +95,6 @@ namespace Main.Forms {
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(151, 20);
             this.textBox1.TabIndex = 5;
-            // 
-            // BuscarButton
-            // 
-            this.BuscarButton.BackgroundImage = global::Main.Properties.Resources.ButGenericoForm;
-            this.BuscarButton.FlatAppearance.BorderSize = 0;
-            this.BuscarButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BuscarButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BuscarButton.ForeColor = System.Drawing.SystemColors.Control;
-            this.BuscarButton.Location = new System.Drawing.Point(642, 1);
-            this.BuscarButton.Name = "BuscarButton";
-            this.BuscarButton.Size = new System.Drawing.Size(146, 39);
-            this.BuscarButton.TabIndex = 6;
-            this.BuscarButton.Text = "Buscar";
-            this.BuscarButton.UseVisualStyleBackColor = true;
-            // 
-            // addClientbutton
-            // 
-            this.addClientbutton.BackgroundImage = global::Main.Properties.Resources.ButGenericoForm;
-            this.addClientbutton.FlatAppearance.BorderSize = 0;
-            this.addClientbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.addClientbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addClientbutton.ForeColor = System.Drawing.SystemColors.Control;
-            this.addClientbutton.Location = new System.Drawing.Point(642, 38);
-            this.addClientbutton.Name = "addClientbutton";
-            this.addClientbutton.Size = new System.Drawing.Size(146, 39);
-            this.addClientbutton.TabIndex = 7;
-            this.addClientbutton.Text = "Nuevo Cliente";
-            this.addClientbutton.UseVisualStyleBackColor = true;
             // 
             // textBox2
             // 
@@ -281,20 +229,6 @@ namespace Main.Forms {
             this.comboBox4.Size = new System.Drawing.Size(140, 21);
             this.comboBox4.TabIndex = 21;
             // 
-            // printbutton
-            // 
-            this.printbutton.BackgroundImage = global::Main.Properties.Resources.ButGenericoForm;
-            this.printbutton.FlatAppearance.BorderSize = 0;
-            this.printbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.printbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.printbutton.ForeColor = System.Drawing.SystemColors.Control;
-            this.printbutton.Location = new System.Drawing.Point(10, 408);
-            this.printbutton.Name = "printbutton";
-            this.printbutton.Size = new System.Drawing.Size(146, 39);
-            this.printbutton.TabIndex = 23;
-            this.printbutton.Text = "Imprimir Presupuesto";
-            this.printbutton.UseVisualStyleBackColor = true;
-            // 
             // mecanicoLabel
             // 
             this.mecanicoLabel.AutoSize = true;
@@ -401,6 +335,64 @@ namespace Main.Forms {
             this.addTableButton.UseVisualStyleBackColor = true;
             this.addTableButton.Click += new System.EventHandler(this.button1_Click);
             // 
+            // printbutton
+            // 
+            this.printbutton.BackgroundImage = global::Main.Properties.Resources.ButGenericoForm;
+            this.printbutton.FlatAppearance.BorderSize = 0;
+            this.printbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.printbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.printbutton.ForeColor = System.Drawing.SystemColors.Control;
+            this.printbutton.Location = new System.Drawing.Point(10, 408);
+            this.printbutton.Name = "printbutton";
+            this.printbutton.Size = new System.Drawing.Size(146, 39);
+            this.printbutton.TabIndex = 23;
+            this.printbutton.Text = "Imprimir Presupuesto";
+            this.printbutton.UseVisualStyleBackColor = true;
+            // 
+            // BuscarButton
+            // 
+            this.BuscarButton.BackgroundImage = global::Main.Properties.Resources.ButGenericoForm;
+            this.BuscarButton.FlatAppearance.BorderSize = 0;
+            this.BuscarButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BuscarButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BuscarButton.ForeColor = System.Drawing.SystemColors.Control;
+            this.BuscarButton.Location = new System.Drawing.Point(642, 1);
+            this.BuscarButton.Name = "BuscarButton";
+            this.BuscarButton.Size = new System.Drawing.Size(146, 39);
+            this.BuscarButton.TabIndex = 6;
+            this.BuscarButton.Text = "Buscar";
+            this.BuscarButton.UseVisualStyleBackColor = true;
+            // 
+            // addClientbutton
+            // 
+            this.addClientbutton.BackgroundImage = global::Main.Properties.Resources.ButGenericoForm;
+            this.addClientbutton.FlatAppearance.BorderSize = 0;
+            this.addClientbutton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.addClientbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addClientbutton.ForeColor = System.Drawing.SystemColors.Control;
+            this.addClientbutton.Location = new System.Drawing.Point(642, 38);
+            this.addClientbutton.Name = "addClientbutton";
+            this.addClientbutton.Size = new System.Drawing.Size(146, 39);
+            this.addClientbutton.TabIndex = 7;
+            this.addClientbutton.Text = "Nuevo Cliente";
+            this.addClientbutton.UseVisualStyleBackColor = true;
+            this.addClientbutton.Click += new System.EventHandler(this.addClientbutton_Click);
+            // 
+            // CancelButton
+            // 
+            this.CancelButton.BackgroundImage = global::Main.Properties.Resources.ButGenericoForm;
+            this.CancelButton.FlatAppearance.BorderSize = 0;
+            this.CancelButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CancelButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CancelButton.ForeColor = System.Drawing.SystemColors.Control;
+            this.CancelButton.Location = new System.Drawing.Point(644, 408);
+            this.CancelButton.Name = "CancelButton";
+            this.CancelButton.Size = new System.Drawing.Size(146, 39);
+            this.CancelButton.TabIndex = 3;
+            this.CancelButton.Text = "Cancelar";
+            this.CancelButton.UseVisualStyleBackColor = true;
+            this.CancelButton.Click += new System.EventHandler(this.CancelButton_Click);
+            // 
             // clearButton
             // 
             this.clearButton.BackgroundImage = global::Main.Properties.Resources.ButGenericoForm;
@@ -415,7 +407,21 @@ namespace Main.Forms {
             this.clearButton.Text = "Limpiar Datos";
             this.clearButton.UseVisualStyleBackColor = true;
             // 
-            // addServices
+            // addServiceButton
+            // 
+            this.addServiceButton.BackgroundImage = global::Main.Properties.Resources.ButGenericoForm;
+            this.addServiceButton.FlatAppearance.BorderSize = 0;
+            this.addServiceButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.addServiceButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addServiceButton.ForeColor = System.Drawing.SystemColors.Control;
+            this.addServiceButton.Location = new System.Drawing.Point(340, 408);
+            this.addServiceButton.Name = "addServiceButton";
+            this.addServiceButton.Size = new System.Drawing.Size(146, 39);
+            this.addServiceButton.TabIndex = 1;
+            this.addServiceButton.Text = "Nuevo Service";
+            this.addServiceButton.UseVisualStyleBackColor = true;
+            // 
+            // AddServices
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -445,7 +451,7 @@ namespace Main.Forms {
             this.Controls.Add(this.addServiceButton);
             this.Controls.Add(this.topPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "addServices";
+            this.Name = "AddServices";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Services";
             this.AddClientPanel.ResumeLayout(false);
@@ -454,7 +460,7 @@ namespace Main.Forms {
             this.ResumeLayout(false);
             this.PerformLayout();
 
-		}
+        }
 
         #endregion
 

@@ -38,8 +38,8 @@ namespace Utilities {
 		/// <param name="table">A string representing the name of the SQL table.</param>
 		/// <param name="attribute">A string representing the name of the SQL table's attribute.</param>
 		/// <param name="comboBox">The ComboBox to be filled.</param>
-		public static void LoadComboBox(string table, string attribute, ComboBox comboBox) {
-			using var conn = new SqlConnection("System.Configuration.ConfigurationManager.AppSettings[\"ConnectionString\"]");
+		public static void LoadComboBox(string ip, string table, string attribute, string id, ComboBox comboBox) {
+			using var conn = new SqlConnection(ip);
 			conn.Open();
 
 			using var cmd = new SqlCommand($"SELECT * FROM {table}", conn);
@@ -50,7 +50,7 @@ namespace Utilities {
 
 			comboBox.DataSource = table;
 			comboBox.DisplayMember = attribute;
-			comboBox.ValueMember = "id";
+			comboBox.ValueMember = id;
 		}
 
 		/// <summary>
