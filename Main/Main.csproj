@@ -58,11 +58,17 @@
     <Compile Include="Forms\Home.designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\Menem.cs">
+    <Compile Include="Forms\ServiceForm\AddCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\Menem.Designer.cs">
-      <DependentUpon>Menem.cs</DependentUpon>
+    <Compile Include="Forms\ServiceForm\AddCliente.Designer.cs">
+      <DependentUpon>AddCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ServiceForm\addService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ServiceForm\addService.Designer.cs">
+      <DependentUpon>addService.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\Submenus\Suppliers.cs">
       <SubType>Form</SubType>
@@ -110,6 +116,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Forms\Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ServiceForm\AddCliente.resx">
+      <DependentUpon>AddCliente.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Submenus\Statistics.resx">
       <DependentUpon>Statistics.cs</DependentUpon>
