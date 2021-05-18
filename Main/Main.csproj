@@ -58,6 +58,13 @@
     <Compile Include="Forms\Home.designer.cs">
       <DependentUpon>Home.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
+    <Compile Include="Forms\ServiceCRUD\CreateService.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ServiceCRUD\CreateService.Designer.cs">
+      <DependentUpon>CreateService.cs</DependentUpon>
+=======
     <Compile Include="Forms\ServiceForm\ActiveService.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,6 +82,7 @@
     </Compile>
     <Compile Include="Forms\ServiceForm\addService.Designer.cs">
       <DependentUpon>addService.cs</DependentUpon>
+>>>>>>> e153d6a7103e1f89e24ea532640be69dc21de426
     </Compile>
     <Compile Include="Forms\Submenus\Suppliers.cs">
       <SubType>Form</SubType>
@@ -123,6 +131,10 @@
     <EmbeddedResource Include="Forms\Home.resx">
       <DependentUpon>Home.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
+    <EmbeddedResource Include="Forms\ServiceCRUD\CreateService.resx">
+      <DependentUpon>CreateService.cs</DependentUpon>
+=======
     <EmbeddedResource Include="Forms\ServiceForm\ActiveService.resx">
       <DependentUpon>ActiveService.cs</DependentUpon>
     </EmbeddedResource>
@@ -131,6 +143,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\ServiceForm\addService.resx">
       <DependentUpon>addService.cs</DependentUpon>
+>>>>>>> e153d6a7103e1f89e24ea532640be69dc21de426
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Submenus\Statistics.resx">
       <DependentUpon>Statistics.cs</DependentUpon>
